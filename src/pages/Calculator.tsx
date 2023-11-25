@@ -38,7 +38,7 @@ const Calculator: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 text-white">
       <h1 className="text-3xl font-bold text-center mb-6">BMI CALCULATOR</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
@@ -71,7 +71,7 @@ const Calculator: React.FC = () => {
         </div>
       </div>
       <div className={`border p-4 rounded mt-6 ${getBmiCategoryColor(bmi)}`}>
-        <h2 className="text-lg text-center">Your BMI is:</h2>
+        <h2 className="text-lg text-white text-center">Your BMI is:</h2>
         <p className="text-3xl font-bold text-center mt-2">{bmi}</p>
       </div>
       <div className=" mt-4 rounded-lg shadow-md p-6">
