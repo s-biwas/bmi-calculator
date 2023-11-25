@@ -63,7 +63,7 @@ const Calculator: React.FC = () => {
             className="w-full"
             type="range"
             step="1"
-            min="160"
+            min="100"
             max="272"
             value={height}
             onChange={onHeightChange}
