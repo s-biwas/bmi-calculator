@@ -3,8 +3,8 @@ import AboutBmi from "../components/AboutBmi";
 import Footer from "../components/Footer";
 
 const Calculator: React.FC = () => {
-  const [height, setHeight] = useState<number>(170);
-  const [weight, setWeight] = useState<number>(65);
+  const [height, setHeight] = useState<number>(100);
+  const [weight, setWeight] = useState<number>(20);
   const [bmi, setBMI] = useState<number>(0);
 
   useEffect(() => {
@@ -93,6 +93,45 @@ const Calculator: React.FC = () => {
             <span className="font-semibold">Obesity:</span> BMI of 30 or greater
           </li>
         </ul>
+      </div>
+      <div className="max-w-md mx-auto p-6 bg-slate-900 mt-3 rounded-lg shadow-lg">
+        <h2 className="text-2xl font-bold mb-4">Discover Your Body's Stats!</h2>
+        <p className="mb-4">
+          Want to calculate your height or find a fitness task that fits your
+          body daily? Look no further!
+        </p>
+        <ul className="list-disc pl-4 mb-6">
+          <li>
+            <a
+              href="https://calculatebiwas.vercel.app/"
+              className="text-blue-600 hover:underline"
+              target="_blank"
+            >
+              Calculate Your Height
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://calculatebiwas.vercel.app/"
+              className="text-blue-600 hover:underline"
+              target="_blank"
+            >
+              Add a Task for Your Body
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://calculatebiwas.vercel.app/"
+              className="text-blue-600 hover:underline"
+              target="_blank"
+            >
+              Check Today's Weather
+            </a>
+          </li>
+        </ul>
+        <p className="text-sm text-gray-600">
+          Stay in tune with your body and the weather effortlessly!
+        </p>
       </div>
 
       <AboutBmi />
