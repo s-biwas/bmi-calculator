@@ -112,7 +112,7 @@ const Calculator: React.FC = () => {
           </li>
           <li>
             <a
-              href="https://calculatebiwas.vercel.app/"
+              href="https://todo-biwas.vercel.app/"
               className="text-blue-600 hover:underline"
               target="_blank"
             >
@@ -121,7 +121,7 @@ const Calculator: React.FC = () => {
           </li>
           <li>
             <a
-              href="https://calculatebiwas.vercel.app/"
+              href="https://weather-biwas.vercel.app/"
               className="text-blue-600 hover:underline"
               target="_blank"
             >
